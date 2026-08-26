@@ -1,0 +1,20 @@
+.idea/
+.DS_Store
+.env
+.env.*
+.venv/
+apps/backend/var/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.pyright/
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# 仅本机配置：含模型密钥与云凭据，禁止入库
+config/project.json
+config/user.project.json
